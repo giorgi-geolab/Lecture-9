@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(90, 90, 245);
+  margin-bottom: 150px;
+}
+
+section {
+  margin: 0 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.info {
+  min-width: 170px;
+}
+
+.phones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px;
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+p {
+  font-weight: bold;
+  color: green;
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
